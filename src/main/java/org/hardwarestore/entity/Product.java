@@ -11,4 +11,11 @@ public class Product {
     private BigDecimal price;
 
     private String manufacturer;
+
+    public Product(Long id, String name, BigDecimal price, String manufacturer) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.manufacturer = manufacturer;
+    }
 }
