@@ -32,9 +32,9 @@ public class StoreApp {
         addCategoryService.addCategory(new RequestCategoryDto("Mainboards","Asus, Gigabyte, Msi"));
 
         addProductService.addProduct(new RequestProductDto("AMD Ryzen 5 4500 - 3.6 GHz - 6 Kerne - 12 Threads",
-                179.90, "AMD", new Category("Processors", "AMD")));
+                179.90, "AMD", new Category(1,"Processors", "AMD")));
         addProductService.addProduct(new RequestProductDto("GIGABYTE X870, Mainboard",
-                250.00,"GIGABYTE", new Category("Mainboards",
+                250.00,"GIGABYTE", new Category(2,"Mainboards",
                 "GIGABYTE X870 AORUS ELITE WIFI7 ICE .")));
 
         printCategoryList(findCategoryService.findAllCategory());
