@@ -12,7 +12,6 @@ import org.hardwarestore.back.repository.ProductRepository;
 import org.hardwarestore.back.repository.ProductRepositoryImpl;
 import org.hardwarestore.back.service.*;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 public class StoreApp {

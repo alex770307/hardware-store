@@ -24,5 +24,5 @@ public class FindCategoryService {
                                 currentCategory.getDescription()
                         ))
                 .toList();
-    };
+    }
 }

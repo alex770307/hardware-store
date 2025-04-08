@@ -1,7 +1,5 @@
 package org.hardwarestore.back.entity;
 
-import java.math.BigDecimal;
-
 public class Product {
 
     private Integer idForProduct;
@@ -55,7 +53,7 @@ public class Product {
     @Override
     public String toString() {
         return "Product{" +
-                "id=" + idForProduct +
+                "idForProduct=" + idForProduct +
                 ", name='" + name + '\'' +
                 ", price=" + price +
                 ", manufacturer='" + manufacturer + '\'' +

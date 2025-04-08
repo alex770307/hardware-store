@@ -2,8 +2,6 @@ package org.hardwarestore.back.dto;
 
 import org.hardwarestore.back.entity.Category;
 
-import java.math.BigDecimal;
-
 public class RequestProductDto {
 
     private String name;

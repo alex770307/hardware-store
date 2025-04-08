@@ -14,7 +14,7 @@ public class AddProductService {
     }
 
     public ResponseProductDto addProduct(RequestProductDto request) {
-        Product productForAdd = new Product(request.getName(),request.getPrice(),request.getManufacturer(),request.getCategory());
+        Product productForAdd = new Product(request.getName(), request.getPrice(), request.getManufacturer(), request.getCategory());
         Product productAfterAdd = productRepository.addProduct(productForAdd);
         return new ResponseProductDto(
                 productAfterAdd.getIdForProduct(),
